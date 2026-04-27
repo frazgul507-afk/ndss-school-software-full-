@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NDSS Saraich School Software</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="login-box">
+<h1>National Discipline Secondary School Saraich</h1>
+
+<input type="password" id="password" placeholder="Enter Password">
+<button onclick="login()">Login</button>
+
+<p id="msg"></p>
+</div>
+
+<div id="main" style="display:none;">
+
+<h2>Dashboard</h2>
+
+<div class="box">
+<p>Total Students: <span id="totalStudents">0</span></p>
+</div>
+
+<h2>Add Student</h2>
+
+<input id="name" placeholder="Student Name">
+<input id="father" placeholder="Father Name">
+<input id="mobile" placeholder="Mobile Number">
+<input id="class" placeholder="Class">
+<input id="fee" placeholder="Monthly Fee">
+<input id="paid" placeholder="Paid Fee">
+
+<button onclick="addStudent()">Save Student</button>
+
+<h2>Student List</h2>
+<div id="studentList"></div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
