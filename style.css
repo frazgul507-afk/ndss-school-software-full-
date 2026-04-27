@@ -1,0 +1,54 @@
+body{
+font-family:Arial;
+background:#f2f4f8;
+margin:0;
+padding:20px;
+}
+
+h1,h2{
+text-align:center;
+color:#0b3d91;
+}
+
+.login-box,.box{
+background:white;
+padding:15px;
+border-radius:10px;
+margin:auto;
+max-width:500px;
+box-shadow:0 0 10px rgba(0,0,0,0.1);
+margin-bottom:20px;
+}
+
+input{
+width:100%;
+padding:10px;
+margin:8px 0;
+border:1px solid #ccc;
+border-radius:6px;
+box-sizing:border-box;
+}
+
+button{
+width:100%;
+padding:12px;
+background:#0b3d91;
+color:white;
+border:none;
+border-radius:6px;
+font-size:16px;
+margin-top:10px;
+}
+
+button:hover{
+background:#082c68;
+}
+
+.student{
+background:white;
+padding:10px;
+margin:10px auto;
+max-width:500px;
+border-radius:8px;
+box-shadow:0 0 5px rgba(0,0,0,0.1);
+}
